@@ -44,6 +44,8 @@ Output:
 <img width="754" height="491" alt="image" src="https://github.com/user-attachments/assets/cd0bd745-13d0-4f2d-84e5-c83a00fb424e" />
 
 
+
+
 Result:
 Thus, the program to search a given element in the given linked list is verified successfully.
 
@@ -91,6 +93,7 @@ Output:
 <img width="632" height="517" alt="image" src="https://github.com/user-attachments/assets/b09205a5-cb44-4849-a08d-18512c8aaffd" />
 
 
+
  
 Result:
 Thus, the program to insert a node in a linked list is verified successfully.
@@ -136,6 +139,7 @@ Output:
 
 
 
+
 Result:
 Thus, the program to traverse a doubly linked list is verified successfully. 
 
@@ -172,6 +176,9 @@ void enqueue(int data)
 Output:
 
  <img width="889" height="601" alt="437765279-6e066425-507b-48de-977c-42f083b2a0f3" src="https://github.com/user-attachments/assets/f6712eca-3c7c-4b7e-be48-22ed344aee34" />
+
+
+
 
 Result:
 Thus, the program to insert an element in doubly linked list is verified successfully.
