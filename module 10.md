@@ -1,4 +1,8 @@
+## NAME :- PRABHAKARAN P
+## REGISTER NUMBER :- 212224040236
+
 EXP NO:16 C PROGRAM TO SEARCH A GIVEN ELEMENT IN THE GIVEN LINKED LIST.
+
 Aim:
 To write a C program to search a given element in the given linked list.
 
@@ -10,20 +14,43 @@ Algorithm:
  
 Program:
 
-//type your code here
+```
+struct Node {
+    int data;
+    struct Node *next;
+} *head = NULL;
+
+void search(int item) {
+    struct Node *temp = head;
+    int pos = 1, found = 0;
+    while (temp != NULL) {
+        if (temp->data == item) {
+            printf("item %d found at location %d\n", item, pos);
+            found = 1;
+            break;
+        }
+        temp = temp->next;
+        pos++;
+    }
+    if (!found) {
+        printf("Item not found\n");
+    }
+}
+
+```
 
 Output:
 
-//paste your output here
-
+<img width="754" height="491" alt="image" src="https://github.com/user-attachments/assets/cd0bd745-13d0-4f2d-84e5-c83a00fb424e" />
 
 
 Result:
 Thus, the program to search a given element in the given linked list is verified successfully.
 
-
+--------------------------------------------------------------------------------
  
 EXP NO:17  PROGRAM TO INSERT A NODE IN A LINKED LIST.
+
 Aim:
 To write a C program to insert a node in a linked list.
 Algorithm:
@@ -33,20 +60,45 @@ Algorithm:
 4.	Call the insert function and perform other linked list operations as needed.
  
 Program:
+```
+struct Node {
+    int data;
+    struct Node *next;
+} *head = NULL;
 
-//type your code here
+void insert(int value) {
+    struct Node *newNode = (struct Node*)malloc(sizeof(struct Node));
+    newNode->data = value;
+    newNode->next = NULL;
 
+    if (head == NULL) 
+    {
+        head = newNode;
+    } 
+    else 
+    {
+        struct Node *temp = head;
+        while (temp->next != NULL) 
+        {
+            temp = temp->next;
+        }
+        temp->next = newNode;
+    }
+}
+```
 Output:
 
-//paste your output here
+<img width="632" height="517" alt="image" src="https://github.com/user-attachments/assets/b09205a5-cb44-4849-a08d-18512c8aaffd" />
+
 
  
 Result:
 Thus, the program to insert a node in a linked list is verified successfully.
 
-
+----------------------------------------------------------------------------------------
  
 EXP NO:18 C PROGRAM TO TRAVERSE A DOUBLY LINKED LIST
+
 Aim:
 To write a C program to traverse a doubly linked list.
 
@@ -58,19 +110,39 @@ Algorithm:
  
 Program:
 
-//type your code here
+```
+struct Node
+{
+    struct Node *prev;
+    struct Node *next;
+    int data;
+}*head;
+
+void display()
+{
+    struct Node* temp=head;
+    while(temp!=NULL)
+    {
+        printf("%d\n",temp->data);
+        temp=temp->next;
+    }
+    
+}
+```
 
 Output:
 
-//paste your output here
+<img width="656" height="502" alt="image" src="https://github.com/user-attachments/assets/72b9d5fb-db57-4940-8f32-a4f2470fbb1d" />
+
 
 
 Result:
 Thus, the program to traverse a doubly linked list is verified successfully. 
 
-
+-------------------------------------------------------------------------------------------
 
 EXP NO:19 C PROGRAM TO INSERT AN ELEMENT IN DOUBLY LINKED LIST
+
 Aim:
 To write a C program to insert an element in doubly linked list
 
@@ -82,24 +154,32 @@ Algorithm:
 5.	Set the new node's prev pointer to the last node and update the last node's next pointer to the new node.
  
 Program:
-
-//type your code here
-
+```
+int rear,front,size=3;
+int queue[50];
+void enqueue(int data) 
+{
+    if (rear<size)
+    {
+        if(front==-1)
+        front++;
+        rear++;
+        queue[rear]=data;
+    }
+ 
+}
+```
 Output:
 
-//paste your output here
-
+ <img width="889" height="601" alt="437765279-6e066425-507b-48de-977c-42f083b2a0f3" src="https://github.com/user-attachments/assets/f6712eca-3c7c-4b7e-be48-22ed344aee34" />
 
 Result:
 Thus, the program to insert an element in doubly linked list is verified successfully.
 
-
+----------------------------------------------------------------------------------------------
 
 
 EXP NO:20 C FUNCTION TO DELETE A GIVEN ELEMENT IN THE GIVEN LINKED LIST
-
-
-
 
 Aim:
 To write a C function that deletes a given element from a linked list.
@@ -124,13 +204,21 @@ o	If the element is not found in any node, print a message indicating the elemen
 
 
 Program:
-
-//type your code here
-
+```
+int front, rear;
+void dequeue()
+{
+    if(front==-1||front>rear){
+        printf("No elements to display");
+    }
+    else{
+        front++;
+    }
+}
+```
 Output:
 
-//paste your output here
-
+<img width="882" height="842" alt="437765374-c69c2e34-30ff-492c-a9f4-89c8e8f76e04" src="https://github.com/user-attachments/assets/60827c6b-30a2-4daa-811d-43b8c6c0992d" />
 
 
 
@@ -138,7 +226,7 @@ Output:
 Result:
 Thus, the function that deletes a given element from a linked list is verified successfully.
 
-
+------------------------------------------------------------------------------------------------------
 
 
 
