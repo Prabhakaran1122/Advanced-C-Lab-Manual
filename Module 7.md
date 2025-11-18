@@ -2,12 +2,12 @@
 ## REGISTER NUMBER :- 212224040236
 
 
-EXP NO:1 C PROGRAM FOR ARRAY OF STRUCTURE TO CHECK ELIGIBILITY FOR THE VACCINE.
+## EXP NO:1 C PROGRAM FOR ARRAY OF STRUCTURE TO CHECK ELIGIBILITY FOR THE VACCINE.
 
-Aim:
+## Aim:
 To write a C program for array of structure to check eligibility for the vaccine person age above 6 years of age.
 
-Algorithm:
+## Algorithm:
 1.	Declare structure eligible with age (integer) and n (character array)
 2.	Declare variable e of type eligible
 3.	Input age and name using scanf, store in e
@@ -18,7 +18,7 @@ Else
 5.	Print details (e.age, e.n)
 6.	Return 0
  
-Program:
+## Program:
 ```
 #include <stdio.h>
 struct eligible {
@@ -40,23 +40,23 @@ int main() {
 
 ```
 
-Output:
+## Output:
 
-<img width="595" height="227" alt="image" src="https://github.com/user-attachments/assets/b9ba95fa-bef7-4936-948e-87f813581ee6" />
+<img width="728" height="292" alt="437709738-9b446079-24de-4cac-85e0-b748e7f3d620" src="https://github.com/user-attachments/assets/6c8f4462-6bbe-4165-94d7-af0d919415e6" />
 
 
 
-Result:
+## Result:
 Thus, the program is verified successfully. 
 
 -------------------------------------------------------------------------------------------------------------------------------------------------------------------------
 
-EXP NO:2 C PROGRAM FOR PASSING STRUCTURES AS FUNCTION ARGUMENTS AND RETURNING A STRUCTURE FROM A FUNCTION
+## EXP NO:2 C PROGRAM FOR PASSING STRUCTURES AS FUNCTION ARGUMENTS AND RETURNING A STRUCTURE FROM A FUNCTION
 
-Aim:
+## Aim:
 To write a C program for passing structure as function and returning a structure from a function
 
-Algorithm:
+## Algorithm:
 1.	Define structure numbers with members a and b.
 2.	Declare variable n of type numbers.
 3.	Prompt the user to enter values for a and b.
@@ -65,7 +65,7 @@ Algorithm:
 6.	Print the result returned by the add function.
 7.	Return 0
  
-Program:
+## Program:
 
 ```
 #include <stdio.h>
@@ -91,25 +91,25 @@ int main() {
 
 
 
-Output:
+## Output:
 
-<img width="804" height="357" alt="image" src="https://github.com/user-attachments/assets/16a9dd24-3557-4903-9d8c-68b3206301d3" />
-
-
+<img width="268" height="310" alt="437709854-1cb25a08-a4d7-4a6c-956a-43c5664f1d8d" src="https://github.com/user-attachments/assets/c6389c49-877b-44b5-8c5c-3c58e9a81e12" />
 
 
 
-Result:
+
+
+## Result:
 Thus, the program is verified successfully
 
 -------------------------------------------------------------------------------------------------------------------------------------------------------------------------
  
-EXP.NO:3 C PROGRAM TO READ A FILE NAME FROM USER AND WRITE THAT FILE USING FOPEN()
+## EXP.NO:3 C PROGRAM TO READ A FILE NAME FROM USER AND WRITE THAT FILE USING FOPEN()
 
-Aim:
+## Aim:
 To write a C program to read a file name from user
 
-Algorithm:
+ ## Algorithm:
 1.	Include the necessary header file stdio.h.
 2.	Begin the main function.
 3.	Declare a file pointer p.
@@ -126,7 +126,7 @@ Use scanf to input the file name into the name array.
 4.	End the main function.
 5.	Return 0 to indicate successful program execution.
  
-Program:
+## Program:
 
 ```
 #include <stdio.h>
@@ -151,22 +151,23 @@ int main() {
 
 
 
-Output:
+## Output:
 
-<img width="810" height="330" alt="image" src="https://github.com/user-attachments/assets/961ad9dd-1e66-42dd-a48e-696dd1e298da" />
+<img width="802" height="307" alt="437710010-f3191f2a-df95-4616-9880-b0e6fa92775c" src="https://github.com/user-attachments/assets/e58e2976-5323-4eaa-a846-0f4ab596d530" />
 
 
-Result:
+
+## Result:
 Thus, the program is verified successfully
  
 -------------------------------------------------------------------------------------------------------------------------------------------------------------------------
 
-EXP NO:4   PROGRAM TO READ A FILE NAME FROM USER, WRITE THAT FILE AND INSERT TEXT IN TO THAT FILE
+## EXP NO:4   PROGRAM TO READ A FILE NAME FROM USER, WRITE THAT FILE AND INSERT TEXT IN TO THAT FILE
 
-Aim:
+## Aim:
 To write a C program to read, a file and insert text in that file.
 
-Algorithm:
+## Algorithm:
 1.	Include the necessary header file stdio.h.
 2.	Begin the main function.
 3.	Declare a file pointer p.
@@ -183,7 +184,7 @@ Use scanf to input the file name into the name array and the number of strings i
 4.	End the main function.
 5.	Return 0 to indicate successful program execution.
  
-Program:
+## Program:
 
 ```
 #include <stdio.h>
@@ -215,22 +216,22 @@ int main() {
 ```
 
 
-Output:
+## Output:
+<img width="613" height="325" alt="437710413-555afb33-e250-43c4-b3c5-f7b38375a6ea" src="https://github.com/user-attachments/assets/1a4263bf-d6aa-4fdf-9922-50ff94ce2080" />
 
-<img width="799" height="457" alt="image" src="https://github.com/user-attachments/assets/0f06b304-dfee-45d6-8faf-c76fa5f49f9c" />
 
 
-Result:
+## Result:
 Thus, the program is verified successfully
 
 -------------------------------------------------------------------------------------------------------------------------------------------------------------------------
 
 Ex No 5 : C PROGRAM TO DISPLAY STUDENT DETAILS USING STRUCTURE
 
-Aim:
+## Aim:
 The aim of this program is to dynamically allocate memory to store information about multiple subjects (name and marks), input the details for each subject, and then display the stored information. Finally, it frees the allocated memory to prevent memory leaks.
 
-Algorithm:
+## Algorithm:
 1.Input the number of subjects.
 
 2.Read the integer value n from the user, which represents the number of subjects.
@@ -257,7 +258,7 @@ Algorithm:
 
 13.End the program by returning 0.
 
-Program:
+## Program:
 
 ```
 #include <stdio.h>
@@ -294,18 +295,16 @@ int main() {
 
 
 
-Output:
+## Output:
 
 
-<img width="803" height="376" alt="image" src="https://github.com/user-attachments/assets/09eec1df-f718-4bed-b188-64337d0ec795" />
-
-
+<img width="341" height="271" alt="437710530-c3f49c81-d72b-431c-b690-dc3a69cf033c" src="https://github.com/user-attachments/assets/fd9e57c8-185e-4441-8c45-88b9e611c15b" />
 
 
 
 
 
-Result:
+## Result:
 Thus, the program is verified successfully
 
 -------------------------------------------------------------------------------------------------------------------------------------------------------------------------
